@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Weather Calendar Agent</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Weather Calendar Agent</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> December 2024</p>
+
+    <h2>Introduction</h2>
+    <p>Weather Calendar Agent ("we", "our", or "the extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome extension.</p>
+
+    <h2>Information We Collect</h2>
+    
+    <h3>Data Stored Locally</h3>
+    <p>The extension stores the following information locally on your device using Chrome's storage API:</p>
+    <ul>
+        <li>Your location preference (city and country code)</li>
+        <li>Your OpenWeatherMap API key</li>
+        <li>Your unit preference (Imperial or Metric)</li>
+        <li>Last sync timestamp</li>
+        <li>Google Calendar authentication token (managed by Chrome)</li>
+    </ul>
+
+    <h3>Data We Do NOT Collect</h3>
+    <ul>
+        <li>We do not collect any personal information</li>
+        <li>We do not track your browsing activity</li>
+        <li>We do not share your data with third parties</li>
+        <li>We do not use analytics or tracking services</li>
+        <li>We do not store your data on external servers</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+    
+    <h3>Local Storage</h3>
+    <p>All information is stored locally in your Chrome browser and is only used to:</p>
+    <ul>
+        <li>Remember your location and preferences</li>
+        <li>Authenticate with Google Calendar API</li>
+        <li>Fetch weather data from OpenWeatherMap API</li>
+    </ul>
+
+    <h3>Third-Party Services</h3>
+    
+    <h4>Google Calendar API:</h4>
+    <ul>
+        <li>We use Google's OAuth 2.0 for authentication</li>
+        <li>We only request calendar write permissions to create/update/delete weather events</li>
+        <li>Your Google account credentials are never stored by us</li>
+        <li>Authentication is handled entirely by Chrome's identity API</li>
+    </ul>
+
+    <h4>OpenWeatherMap API:</h4>
+    <ul>
+        <li>We use your API key to fetch weather forecasts</li>
+        <li>API requests are made directly from your browser to OpenWeatherMap</li>
+        <li>We do not intercept or store weather data</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <ul>
+        <li>All data is stored locally in Chrome's secure storage</li>
+        <li>OAuth authentication is handled by Chrome's secure identity API</li>
+        <li>No data is transmitted to our servers (we don't have any)</li>
+        <li>Your OpenWeatherMap API key is stored locally and only used for API requests</li>
+    </ul>
+
+    <h2>Permissions Explained</h2>
+    
+    <h3>Identity Permission:</h3>
+    <ul>
+        <li>Used to authenticate with Google Calendar API</li>
+        <li>Required to create and manage calendar events</li>
+        <li>Managed entirely by Chrome's secure OAuth flow</li>
+    </ul>
+
+    <h3>Storage Permission:</h3>
+    <ul>
+        <li>Used to save your preferences locally</li>
+        <li>All data remains on your device</li>
+    </ul>
+
+    <h3>Alarms Permission:</h3>
+    <ul>
+        <li>Used to schedule automatic weather updates every 15 minutes</li>
+        <li>Runs entirely in the background</li>
+    </ul>
+
+    <h3>Host Permissions:</h3>
+    <ul>
+        <li><code>https://www.googleapis.com/*</code> - Required for Google Calendar API</li>
+        <li><code>https://api.openweathermap.org/*</code> - Required for weather data</li>
+    </ul>
+
+    <h2>Your Rights</h2>
+    <ul>
+        <li>You can revoke Google Calendar access at any time through your Google Account settings</li>
+        <li>You can delete all stored data by uninstalling the extension</li>
+        <li>You can view your stored data through Chrome's developer tools</li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this Privacy Policy, please contact us through the extension's support channel.</p>
+
+    <h2>Open Source</h2>
+    <p>This extension is open source. You can review the code to verify our privacy practices.</p>
+</body>
+</html>
+

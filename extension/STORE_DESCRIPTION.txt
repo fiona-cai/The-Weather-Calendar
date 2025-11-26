@@ -1,0 +1,55 @@
+WEATHER CALENDAR AGENT
+
+Short Description (132 characters):
+Automatically syncs weather alerts and suggestions to your Google Calendar. Get notified about rain, snow, extreme temperatures, and perfect weather days!
+
+Detailed Description:
+
+Weather Calendar Agent automatically creates, updates, and manages weather-based events in your Google Calendar, keeping you informed about upcoming weather conditions.
+
+KEY FEATURES:
+
+Automatic Weather Alerts:
+• Rain Alerts - Get notified when significant rainfall is expected
+• Snow Alerts - Stay informed about upcoming snowfall
+• Temperature Alerts - Warnings for extreme cold or heat
+• Wind Alerts - Notifications for high wind conditions
+• UV Alerts - Reminders for sun protection on clear days
+• Perfect Weather Suggestions - Highlights ideal days for outdoor activities
+
+Smart Features:
+• Automatic Updates - Syncs every 15 minutes in the background
+• Location Autocomplete - Smart location search with suggestions
+• Global Support - Works with cities worldwide
+• Customizable Units - Choose between Imperial (Fahrenheit, mph) or Metric (Celsius, m/s)
+• Secure - Uses official Google Calendar API with OAuth authentication
+• Privacy-Focused - All data stored locally, no data collection
+
+HOW IT WORKS:
+
+1. Authorize - Connect your Google Calendar (one-time setup)
+2. Configure - Enter your location and OpenWeatherMap API key
+3. Relax - The extension automatically creates and updates weather events every 15 minutes
+
+WHAT YOU'LL SEE IN YOUR CALENDAR:
+
+The extension creates a dedicated calendar called "Weather Alerts & Suggestions" with events like:
+• "❄️ Cold Weather Alert - 25°F" (with description and time range)
+• "🌧️ Rain Expected - 8.5mm" (all-day event)
+• "☀️ Perfect Weather Day!" (for ideal outdoor conditions)
+
+REQUIREMENTS:
+
+• Google account with Calendar access
+• Free OpenWeatherMap API key (get one at openweathermap.org)
+• Chrome browser
+
+PRIVACY & SECURITY:
+
+• Uses official Google OAuth for secure authentication
+• All settings stored locally in Chrome storage
+• No data is collected or shared
+• Open source code available for review
+
+NOTE: This extension requires a free OpenWeatherMap API key. Sign up at openweathermap.org to get started.
+

@@ -31,3 +31,5 @@ class Config:
     FORECAST_DAYS = int(os.getenv('FORECAST_DAYS', '5'))
 
 
+
+

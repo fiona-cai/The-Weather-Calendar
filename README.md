@@ -86,20 +86,74 @@ FORECAST_DAYS=5
 
 ## Usage
 
-### Run Once
+### Option 1: Interactive Run (Continuous)
 
 ```bash
 python main.py
 ```
 
 The script will:
-1. Authenticate with Google Calendar (first time only)
-2. Create the "Weather Alerts & Suggestions" calendar if it doesn't exist
-3. Analyze the weather forecast
-4. Create/update/delete calendar events accordingly
-5. Schedule periodic updates every 6 hours (configurable)
+1. Prompt for location and units
+2. Authenticate with Google Calendar (first time only)
+3. Create the "Weather Alerts & Suggestions" calendar if it doesn't exist
+4. Analyze the weather forecast
+5. Create/update/delete calendar events accordingly
+6. Continue running and update every minute
 
-### Run as a Service
+### Option 2: Scheduled Run (Recommended - No Continuous Process)
+
+Use the scheduled run script with cron (Linux/Mac) or Task Scheduler (Windows) to run periodically without keeping your computer on.
+
+#### For Linux/Mac (cron):
+
+1. Edit your crontab:
+   ```bash
+   crontab -e
+   ```
+
+2. Add a line to run every hour (or adjust as needed):
+   ```bash
+   0 * * * * cd /path/to/The-Weather-Calendar && /usr/bin/python3 scheduled_run.py --location "Toronto,CA" --units metric >> /tmp/weather_calendar.log 2>&1
+   ```
+
+   Or every 6 hours:
+   ```bash
+   0 */6 * * * cd /path/to/The-Weather-Calendar && /usr/bin/python3 scheduled_run.py --location "Toronto,CA" --units metric >> /tmp/weather_calendar.log 2>&1
+   ```
+
+#### For Windows (Task Scheduler):
+
+1. Open Task Scheduler
+2. Create Basic Task
+3. Set trigger (e.g., Daily, repeat every 6 hours)
+4. Action: Start a program
+   - Program: `python`
+   - Arguments: `scheduled_run.py --location "Toronto,CA" --units metric`
+   - Start in: `C:\path\to\The-Weather-Calendar`
+
+#### Command-line usage:
+
+```bash
+python scheduled_run.py --location "Toronto,CA" --units metric
+```
+
+### Option 3: Cloud Deployment
+
+Deploy to a cloud service that runs on a schedule:
+
+- **AWS Lambda** with EventBridge (CloudWatch Events)
+- **Google Cloud Functions** with Cloud Scheduler
+- **Azure Functions** with Timer Trigger
+- **Heroku Scheduler** (free tier available)
+- **PythonAnywhere** scheduled tasks
+
+Example for Heroku Scheduler:
+1. Deploy to Heroku
+2. Add Heroku Scheduler addon
+3. Set command: `python scheduled_run.py --location "Toronto,CA" --units metric`
+4. Set frequency (e.g., every 6 hours)
+
+### Option 4: Run as a Background Service
 
 For production use, consider running as a systemd service (Linux) or using a process manager like `supervisord` or `pm2`.
 

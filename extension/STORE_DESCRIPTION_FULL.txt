@@ -1,0 +1,83 @@
+Never be caught off guard by the weather again! Weather Calendar Agent automatically creates, updates, and manages weather-based events in your Google Calendar, keeping you informed about upcoming weather conditions so you can plan ahead.
+
+🌤️ KEY FEATURES
+
+Automatic Weather Alerts:
+• 🌧️ Rain Alerts - Get notified when significant rainfall is expected, so you can bring an umbrella and plan indoor activities
+• ❄️ Snow Alerts - Stay informed about upcoming snowfall to allow extra travel time and drive safely
+• 🌡️ Temperature Alerts - Receive warnings for extreme cold or heat to dress appropriately and stay comfortable
+• 💨 Wind Alerts - Get notifications for high wind conditions to secure outdoor items and stay safe
+• ☀️ UV Alerts - Receive reminders for sun protection on clear, sunny days
+• 🌤️ Perfect Weather Suggestions - Discover ideal days for outdoor activities with perfect temperature and conditions
+
+Smart Automation:
+• 🔄 Automatic Updates - Syncs every 15 minutes in the background, keeping your calendar always up-to-date
+• 📍 Location Autocomplete - Smart location search with real-time suggestions helps you find your city quickly
+• 🌍 Global Support - Works with cities worldwide through OpenWeatherMap's comprehensive database
+• 📊 Customizable Units - Choose between Imperial (Fahrenheit, mph) or Metric (Celsius, m/s) based on your preference
+• 🔐 Secure Integration - Uses official Google Calendar API with OAuth authentication for maximum security
+• 💾 Privacy-Focused - All data stored locally in your browser, no data collection or external servers
+
+HOW IT WORKS
+
+Getting started is simple:
+1. Install the extension and click the icon
+2. Authorize Google Calendar access (one-time secure OAuth setup)
+3. Enter your location and OpenWeatherMap API key (free at openweathermap.org)
+4. The extension automatically creates a dedicated "Weather Alerts & Suggestions" calendar
+5. Weather events appear automatically and update every 15 minutes
+
+WHAT YOU'LL SEE IN YOUR CALENDAR
+
+The extension creates helpful, detailed events in your Google Calendar:
+
+• "❄️ Cold Weather Alert - 25°F" - Includes temperature range and time-specific alerts (7-9 AM)
+• "🌧️ Rain Expected - 8.5mm" - All-day events with rainfall amounts and helpful reminders
+• "🔥 Heat Alert - 95°F" - Extended alerts (10 AM-6 PM) with hydration reminders
+• "💨 High Winds - 30 mph" - Wind speed alerts with safety recommendations
+• "☀️ Perfect Weather Day!" - Highlights ideal conditions for outdoor activities
+
+Each event includes detailed descriptions with specific weather information, making it easy to plan your day accordingly.
+
+WHY USERS LOVE IT
+
+✓ Never forget your umbrella - Rain alerts appear in your calendar automatically
+✓ Plan outdoor activities - Perfect weather days are highlighted for you
+✓ Stay safe in extreme weather - Get advance warnings for dangerous conditions
+✓ Save time - No need to check weather apps manually
+✓ Always prepared - Weather information is right where you plan your schedule
+✓ Set it and forget it - Automatic updates mean you never miss important weather changes
+
+PRIVACY & SECURITY
+
+Your privacy is our priority:
+• All settings stored locally in Chrome storage - never sent to external servers
+• Uses official Google OAuth for secure authentication
+• Your OpenWeatherMap API key is stored locally and only used for weather API calls
+• No tracking, analytics, or data collection
+• Open source code available for review
+• Complete privacy policy available
+
+REQUIREMENTS
+
+To use this extension, you'll need:
+• A Google account with Calendar access
+• A free OpenWeatherMap API key (sign up at openweathermap.org - takes 2 minutes)
+• Chrome browser
+
+The OpenWeatherMap API key is free and allows up to 60 API calls per minute, which is more than enough for the extension's 15-minute update cycle.
+
+PERFECT FOR
+
+• Busy professionals who want weather info in their calendar
+• Outdoor enthusiasts planning activities
+• Commuters who need to know about weather conditions
+• Event planners considering weather factors
+• Anyone who wants to be prepared for weather changes
+
+GET STARTED TODAY
+
+Install Weather Calendar Agent and never be surprised by the weather again. Your calendar will automatically keep you informed about rain, snow, temperature extremes, and perfect weather days - all without any manual effort on your part.
+
+Note: This extension requires a free OpenWeatherMap API key. Sign up at openweathermap.org to get started. The setup process takes less than 5 minutes, and then you're all set!
+
